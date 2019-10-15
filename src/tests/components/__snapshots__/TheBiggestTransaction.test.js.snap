@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TheBiggestTransaction correctly 1`] = `
+<div
+  className="the-biggest-transaction app__most-exensive-transaction-div"
+>
+  <p
+    className="the-biggest-transaction__title"
+  >
+    The most expensive transaction is:
+  </p>
+</div>
+`;

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.app {
+  color: #364051;
+}
+
+/* HEADER */
+.app__header {
+   font-size: 1.8rem;
+   text-align: center;
+   color: white;
+   background-color: #364051;
+   padding: 20px 0;
+}
+
+/* CURRENCY SECTION */
+.app__currency {
+   margin: 20px 0;
+   display: flex;
+   justify-content: center;
+}
+
+.currency__container {
+   min-width: 305px;
+}
+
+.currency-div__euro-h3 {
+   font-size: 1.3rem;
+   margin-bottom: 15px;
+}
+
+.currency-div__mess {
+   font-size: 0.7rem;
+   font-weight: 700;
+   padding: 1px;
+}
+
+.currency-div__input {
+   width: 100%;
+   outline: none;
+   padding: 2px;
+}
+
+.span {
+   font-size: 1.2rem;
+   line-height: 0.7rem;
+}
+
+/* TRANSACTION SECTION */
+.summary-section {
+   margin: 20px 0;
+   display: flex;
+   justify-content: center;
+}
+
+.transaction-section__p {
+   font-size: 1.1rem;
+   font-weight: 700;
+   margin-top: 5px;
+   color: #489ECA;
+}
+
+.form-add {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 26px;
+}
+
+.form-add__input {
+   flex-basis: 22px;
+   width: 305px;
+   border: none;
+   border-bottom: 1px solid black;
+   margin-bottom: 2px;
+}
+
+.form-add__button {
+   background-color: #489ECA;
+   padding: 4px 0;
+   border: none;
+   cursor: pointer;
+   font-weight: 700;
+}
+
+/* THE BIGGEST TRANSACTION DIV */
+.app__div-container-transactions {
+   display: flex;
+   justify-content: space-around;
+   max-width: 1980px;
+}
+
+.the-biggest-transaction__title {
+   color: #489ECA;
+   font-size: 0.9rem;
+}
+
+.summary-the-biggest-transaction__p {
+   font-size: 1.2rem;
+}
+
+/* LIST OF TRANSACTIONS */
+.transaction-list-item-div {
+   min-width: 300px;
+   margin-bottom: 30px;
+   border-bottom: solid #364051 1px;
+   background-color: #F7F7F7;
+}
+
+.transaction-list-item-div__p {
+   margin-bottom: 2px;
+}
+
+.transaction-list-item-div__button {
+   margin-bottom: 1px;
+   background-color: #489ECA;
+   border: none;
+   color: white;
+   padding: 3px 10px;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.add-info__span {
+   color: #489ECA;
+   font-size: 0.9rem;
+}
+
+/* ERROR */
+.transaction-section__error {
+   color: red;
+   margin-top: 2px;
+   font-size: 0.8rem;
+   font-weight: 700;
+}

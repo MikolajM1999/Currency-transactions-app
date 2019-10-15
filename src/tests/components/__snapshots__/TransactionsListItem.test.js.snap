@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TransactionListItem correctly with provided title 1`] = `
+<div
+  className="transaction-list-item-div"
+>
+  <p
+    className="transaction-list-item-div__p"
+  />
+  <p
+    className="transaction-list-item-div__p"
+  >
+    NaN
+     EURO = 
+    NaN
+     PLN
+  </p>
+  <button
+    className="transaction-list-item-div__button"
+    onClick={[Function]}
+  >
+    remove
+  </button>
+</div>
+`;
+
+exports[`should render TransactionListItem correctly without provided title 1`] = `
+<div
+  className="transaction-list-item-div"
+>
+  <p
+    className="transaction-list-item-div__p"
+  />
+  <p
+    className="transaction-list-item-div__p"
+  >
+    NaN
+     EURO = 
+    NaN
+     PLN
+  </p>
+  <button
+    className="transaction-list-item-div__button"
+    onClick={[Function]}
+  >
+    remove
+  </button>
+</div>
+`;

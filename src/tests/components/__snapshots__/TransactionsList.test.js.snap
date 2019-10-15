@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TransactionsList correctly with no transactions 1`] = `
+<section
+  className="list-of-transactions app__list"
+>
+  <div
+    className="add-info list-of-transactions__div"
+  >
+    <span
+      className="add-info__span"
+    >
+      Add new transactions.
+    </span>
+  </div>
+</section>
+`;
+
+exports[`should render TransactionsList correctly with the data 1`] = `
+<section
+  className="list-of-transactions app__list"
+>
+  <Connect(TransactionListItem)
+    euro={12}
+    euroToPLN={4.29}
+    id="1"
+    key="1"
+    name="abc"
+  />
+  <Connect(TransactionListItem)
+    euro={1212}
+    euroToPLN={4.29}
+    id="2"
+    key="2"
+    name="abcdef"
+  />
+</section>
+`;

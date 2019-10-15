@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App correctly 1`] = `
+<div
+  className="app"
+>
+  <Header />
+  <Connect(CurrencyHeader) />
+  <Connect(AddTransactionEuroForm) />
+  <div
+    className="app__div-container-transactions"
+  >
+    <Connect(TransactionsList) />
+    <Connect(TheBiggestTransaction) />
+  </div>
+</div>
+`;

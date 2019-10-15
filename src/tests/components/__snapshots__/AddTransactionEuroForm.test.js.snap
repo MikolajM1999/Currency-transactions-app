@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddTransactionEuroForm correctly with provided values 1`] = `
+<section
+  className="summary-section app__summary-section"
+>
+  <div
+    className="transaction-section summary-section__transaction-section"
+  >
+    <p
+      className="transaction-section__p"
+    >
+      Add new transaction:
+    </p>
+    <form
+      className="form-add transaction-section__form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-add__input"
+        onChange={[Function]}
+        placeholder="name"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-add__input"
+        onChange={[Function]}
+        placeholder="EURO"
+        type="text"
+        value=""
+      />
+      <button
+        className="form-add__button"
+      >
+        Add the transaction
+      </button>
+    </form>
+    <p
+      className="transaction-section__p"
+    >
+      All transactions summary:
+    </p>
+    <p
+      className="transaction-section__p"
+    >
+      EURO: 
+      1
+    </p>
+    <p
+      className="transaction-section__p"
+    >
+      PLN: 
+      4.22
+    </p>
+  </div>
+</section>
+`;

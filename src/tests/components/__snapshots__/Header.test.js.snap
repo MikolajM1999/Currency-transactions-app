@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header
+  className="header app__header"
+>
+  <h1
+    className="header__title"
+  >
+    Currency-Transactions-App
+  </h1>
+</header>
+`;
